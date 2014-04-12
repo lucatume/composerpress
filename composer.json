@@ -1,0 +1,75 @@
+{
+    "authors": [
+        {
+            "email": "luca@theAverageDev.com",
+            "name": "theAverageDev"
+        }
+    ],
+    "description": "Composer managed WordPress installation",
+    "name": "tad/composerpress",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "dist": {
+                    "type": "zip",
+                    "url": "http://wordpress.org/latest.zip"
+                },
+                "name": "wordpress",
+                "require": {
+                    "fancyguy/webroot-installer": "1.0.0"
+                },
+                "source": {
+                    "reference": "3.8.2",
+                    "type": "git",
+                    "url": "https://github.com/WordPress/WordPress"
+                },
+                "type": "webroot",
+                "version": "3.8.2"
+            }
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/lucatume/tad-libs-for-wordpress.git"
+        },
+        {
+            "type": "git",
+            "url": "https://ltumedei@bitbucket.org/ltumedei/headway.git"
+        }
+    ],
+    "extra": {
+        "installerpaths": {
+            "wp-content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ],
+            "wp-content/mu-plugins/{$name}/": [
+                "type:wordpress-muplugin"
+            ],
+            "wp-content/themes/{$name}/": [
+                "type:wordpress-theme"
+            ]
+        },
+        "webroot-dir": "wordpress",
+        "webroot-package": "wordpress"
+    },
+    "require": {
+        "wpackagist-plugin/webmaster-user-role": "*",
+        "fancyguy/webroot-installer": "1.0.0",
+        "wordpress": "3.8.2",
+        "lucatume/tad-libs-for-wordpress": "*",
+        "headway/headway": "*"
+    },
+    "require-dev": {
+        "wpackagist-plugin/debug-bar": "*",
+        "wpackagist-plugin/debug-bar-actions-and-filters-addon": "*",
+        "wpackagist-plugin/debug-bar-extender": "*",
+        "wpackagist-plugin/debug-bar-list-dependencies": "*",
+        "wpackagist-plugin/log-deprecated-notices": "*",
+        "wpackagist-plugin/rewrite-rules-inspector": "*",
+        "wpackagist-plugin/wordpress-importer": "*"
+    }
+}

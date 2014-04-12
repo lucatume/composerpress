@@ -79,6 +79,7 @@ define('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
+define('SCRIPT_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
@@ -86,11 +87,11 @@ define('WP_DEBUG', false);
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/wordpress');
+define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-core');
 define('WP_CONTENT_DIR', realpath(ABSPATH . '../wp-content/'));
 define('WP_CONTENT_URL', WP_HOME . '/wp-content');
 define('WPMU_PLUGIN_DIR', realpath(ABSPATH . '../wp-content/mu-plugins/'));
 define('WP_CONTENT_URL', WP_HOME . '/wp-content/mu-plugins/');
-define('UPLOADS', '../uploads');
+define('UPLOADS', '../wp-uploads');
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');

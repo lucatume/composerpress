@@ -1,4 +1,5 @@
 /vendor/
+/wp-core/
 /wp-content/plugins/**
 /wp-content/mu-plugins/**
 /wp-content/themes/**

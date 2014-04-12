@@ -53,7 +53,7 @@
                 "type:wordpress-theme"
             ]
         },
-        "webroot-dir": "wordpress",
+        "webroot-dir": "wp-core",
         "webroot-package": "wordpress"
     },
     "require": {

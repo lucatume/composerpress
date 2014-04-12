@@ -9,3 +9,4 @@
 !/wp-content/mu-plugins/load.php
 !/wp-content/themes/index.php
 /wordpress/
+*.swp

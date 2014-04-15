@@ -65,7 +65,8 @@
         "fancyguy/webroot-installer": "1.0.0",
         "wordpress": "3.8.2",
         "lucatume/tad-libs-for-wordpress": "*",
-        "headway/headway": "*"
+        "headway/headway": "*",
+        "automattic/_s": "*"
     },
     "require-dev": {
         "wpackagist-plugin/debug-bar": "*",

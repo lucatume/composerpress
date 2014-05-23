@@ -52,6 +52,7 @@
         "wpackagist-plugin/webmaster-user-role": "*",
         "wpackagist-plugin/types": "*",
         "wpackagist-plugin/posts-to-posts": "*",
+        "wpackagist-theme/twentyfourteen": "*",
         "fancyguy/webroot-installer": "1.0.0",
         "wordpress/wordpress": "3.9.*"
     },

@@ -6,7 +6,6 @@
 !/wp-content/index.php
 !/wp-content/plugins/index.php
 !/wp-content/mu-plugins/index.php
-!/wp-content/mu-plugins/load.php
 !/wp-content/themes/index.php
 /wordpress/
 *.swp

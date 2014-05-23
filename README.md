@@ -36,6 +36,6 @@ To keep track of themes and plugins installed and removed from the site installa
 To uninstall a plugin or theme:
 
 1. deactivate theme or plugin on the site
-2. remove the plugin from the site via the admin interface
+2. remove the plugin/theme from the site via the admin interface
 3. remove dependency from <code>composer.json</code> file
 4. run <code>composer update</code>

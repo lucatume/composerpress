@@ -46,7 +46,7 @@
             ]
         },
         "webroot-dir": "wp-core",
-        "webroot-package": "wordpress"
+        "webroot-package": "wordpress/wordpress"
     },
     "require": {
         "wpackagist-plugin/webmaster-user-role": "*",

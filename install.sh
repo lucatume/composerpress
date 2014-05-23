@@ -10,6 +10,6 @@ fi
 # run Composer
 composer install
 # remove git repository
-rm -rf ./.git*
+rm -rf ./.git
 # init new git repository
 git init

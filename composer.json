@@ -62,11 +62,9 @@
     },
     "require": {
         "wpackagist-plugin/webmaster-user-role": "*",
+        "wpackagist-plugin/types": "*",
         "fancyguy/webroot-installer": "1.0.0",
-        "wordpress": "3.8.2",
-        "lucatume/tad-libs-for-wordpress": "*",
-        "headway/headway": "*",
-        "automattic/_s": "*"
+        "wordpress": "3.8.2"
     },
     "require-dev": {
         "wpackagist-plugin/debug-bar": "*",

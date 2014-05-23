@@ -63,6 +63,7 @@
     "require": {
         "wpackagist-plugin/webmaster-user-role": "*",
         "wpackagist-plugin/types": "*",
+        "wpackagist-plugin/posts-to-posts": "*",
         "fancyguy/webroot-installer": "1.0.0",
         "wordpress": "3.8.2"
     },

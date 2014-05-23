@@ -15,30 +15,18 @@
         {
             "type": "package",
             "package": {
-                "dist": {
-                    "type": "zip",
-                    "url": "http://wordpress.org/latest.zip"
-                },
-                "name": "wordpress",
+                "name": "wordpress/wordpress",
                 "require": {
                     "fancyguy/webroot-installer": "1.0.0"
                 },
                 "source": {
-                    "reference": "3.8.2",
+                    "reference": "3.9.1",
                     "type": "git",
-                    "url": "https://github.com/WordPress/WordPress"
+                    "url": "https://github.com/WordPress/WordPress.git"
                 },
                 "type": "webroot",
-                "version": "3.8.2"
+                "version": "3.9.1"
             }
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/lucatume/tad-libs-for-wordpress.git"
-        },
-        {
-            "type": "git",
-            "url": "https://ltumedei@bitbucket.org/ltumedei/headway.git"
         },
         {
             "type": "git",
@@ -65,7 +53,7 @@
         "wpackagist-plugin/types": "*",
         "wpackagist-plugin/posts-to-posts": "*",
         "fancyguy/webroot-installer": "1.0.0",
-        "wordpress": "3.8.2"
+        "wordpress/wordpress": "3.9.*"
     },
     "require-dev": {
         "wpackagist-plugin/debug-bar": "*",
